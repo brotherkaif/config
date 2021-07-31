@@ -14,7 +14,8 @@ require('telescope').setup({
 
 require('telescope').load_extension('fzf')
 
-print('- plugins/telescope-config.lua...OK!')
+-- UNCOMMENT FOR DEBUG MESSAGES
+-- print('- plugins/telescope-config.lua...OK!')
 
 -- picker configurations for use with binds
 local picker_configs = {}
